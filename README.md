@@ -1,56 +1,81 @@
 # 📊 Sales Performance Insight & Profitability Dashboard (Power BI + PostgreSQL)
 
-## 🎯 Business Problem
+## 🚀 TL;DR
+Designed a fully interactive Power BI dashboard backed by PostgreSQL that visualizes year-to-date (YTD) sales, gross profit margins, and market segmentation across 15+ countries. Reduced query time by 50%, improved reporting accuracy by 30%, and enabled data-driven decision-making at scale.
 
-Sales performance and profitability data were fragmented across multiple systems, limiting timely decision-making and visibility into key business metrics. Stakeholders lacked an integrated, real-time reporting tool to evaluate performance across 15+ countries and three market segments.
+---
 
-## 💡 Solution Overview
+## ❓ Problem Statement
 
-I designed a responsive Power BI dashboard using PostgreSQL and advanced SQL logic to provide dynamic insights on year-to-date (YTD) sales, gross profit %, and detailed account segmentation across products and regions. The dashboard delivers interactive visuals, trend analysis, and KPI monitoring that drive strategic action.
+Sales and profitability data were siloed across disparate systems, limiting leadership’s ability to act on real-time performance indicators. Existing tools lacked interactivity and failed to support regional and segment-based drilldowns.
 
-## 🛠️ Tools & Technologies
+---
 
-| Tool / Tech           | Purpose                                                                 |
-|-----------------------|-------------------------------------------------------------------------|
-| **Power BI**          | Visualization, dashboard design, DAX for KPIs                           |
-| **PostgreSQL**        | Data storage, performance-optimized queries and indexes                 |
-| **SQL**               | Window functions, stored procedures, views for efficient analytics      |
-| **DAX**               | Custom KPI calculations and time-based comparisons                      |
-| **Power Query**       | Data transformation and automated cleansing                             |
+## ✅ Solution Overview
+
+Built a dynamic business intelligence solution integrating Power BI with optimized PostgreSQL queries. The dashboard allows stakeholders to compare YTD vs. prior year metrics, monitor gross profit %, and analyze sales trends by product, account type, and geography — all in real time.
+
+---
+
+## 🧰 Tools & Technologies
+
+| Tool / Tech       | Role in Project                                                   |
+|-------------------|--------------------------------------------------------------------|
+| ![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) | Dashboard design, visual storytelling, DAX-driven KPIs |
+| ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) | Data storage, SQL optimization, data modeling          |
+| ![SQL](https://img.shields.io/badge/SQL-005C84?style=for-the-badge&logo=sqlite&logoColor=white) | Window functions, stored procedures, views             |
+| ![DAX](https://img.shields.io/badge/DAX-0194C4?style=for-the-badge&logo=databricks&logoColor=white) | KPI logic and custom time intelligence                 |
+| ![Power Query](https://img.shields.io/badge/Power%20Query-91C300?style=for-the-badge&logo=microsoftexcel&logoColor=white) | Data transformation and cleansing                      |
+
+---
 
 ## 🔧 Key Features
 
-- 📈 **YTD vs Previous YTD Sales Comparison**  
-  Interactive charting with slicers and dynamic filters boosted decision speed by **25%**
+### 📈 YTD vs Previous YTD Sales Comparison
+- Built dynamic, filterable charts showing sales and quantity deltas over time  
+- Accelerated executive decision-making by **25%**
 
-- 💰 **Gross Profit % Monitoring**  
-  Automated profit ratio tracking across country and product categories in real time
+### 💰 Gross Profit % Monitoring
+- Real-time profit margin tracking across country and product segments  
+- Identified underperforming regions, enabling focused intervention
 
-- 📅 **Monthly Sales Trend Analysis**  
-  Segmentation by region, account type, and product improved reporting accuracy by **30%**
+### 📅 Monthly Sales Trend Analysis
+- Time-series visuals with drilldown by region, account type, and category  
+- Improved reporting accuracy by **30%**
 
-- ⚙️ **Performance-Optimized SQL**  
-  Reduced query runtime by **50%** using indexes, stored procedures, and window functions (`RANK()`, `LAG()`, `SUM() OVER`)
+### ⚙️ SQL Performance Optimization
+- Reduced query latency by **50%** using indexes, stored procedures, and views  
+- Applied advanced SQL window functions: `RANK()`, `LAG()`, `LEAD()`, `SUM() OVER`
 
-- 🧠 **Enhanced UX with Power BI**  
-  DAX-driven KPIs and user-friendly slicers for intuitive analysis
+### 🧠 User-First Dashboard Design
+- DAX-powered KPIs and slicers for seamless UX  
+- Intuitive filters to customize views by year, category, region, and more
+
+---
 
 ## 📈 Business Impact
 
-- Provided stakeholders with a one-stop dashboard for actionable insights
-- Increased transparency and agility in regional strategy planning
-- Enabled quick identification of top/bottom performers by product and market segment
+✔️ Unified fragmented data sources into one streamlined analytics platform  
+✔️ Enabled 360° visibility into sales and profitability across 15+ countries  
+✔️ Drove faster, more confident decisions by regional sales managers and leadership  
+✔️ Built scalable infrastructure ready for integration with Power BI Service and row-level security
 
-## 🧠 Key Learnings & Suggestions
-
-- **SQL optimization** is critical when handling large datasets—views and stored procedures made a huge difference
-- **DAX & Power Query** offer unmatched flexibility for shaping KPIs and transforming raw data
-- **Next Steps**:
-  - Integrate predictive models for future sales forecasting
-  - Enable row-level security for customized stakeholder views
-  - Scale to Power BI Service for broader enterprise accessibility
+---
 
 ## 📸 Dashboard Preview
 
-![Dashboard Screenshot](Dashboard)
+> Add a screenshot of your Power BI dashboard (recommended size: 1200×600px)
+
+![Dashboard Preview](Dashboard)
+
+---
+
+## 📘 Key Learnings & Future Enhancements
+
+### 🔍 Lessons Learned
+- SQL optimization is mission-critical for BI performance  
+- DAX and Power Query offer unmatched flexibility for real-world KPIs  
+- Business context is just as important as technical implementation
+
+---
 
