@@ -52,5 +52,5 @@ I designed a responsive Power BI dashboard using PostgreSQL and advanced SQL log
 
 ## 📸 Dashboard Preview
 
-![Dashboard Screenshot](dashboard.png)
+![Dashboard Screenshot](Dashboard.png)
 
