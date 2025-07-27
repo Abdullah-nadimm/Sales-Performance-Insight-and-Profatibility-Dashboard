@@ -70,7 +70,7 @@ Built a dynamic business intelligence solution integrating Power BI with optimiz
 
 ---
 
-## 📘 Key Learnings & Future Enhancements
+## 📘 Key Learnings
 
 ### 🔍 Lessons Learned
 - SQL optimization is mission-critical for BI performance  
